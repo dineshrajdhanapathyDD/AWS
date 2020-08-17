@@ -1,0 +1,12 @@
+Project 1 - Launching Windows instance in EC2 and hosting a web server:
+*ISE to install the IIS webserver.. !!! powershell is case sensitive-
+
+Install-WindowsFeature -name Web-Server -IncludeManagementTools
+
+
+
+Project 2 - Launching Ubuntu instance in EC2 and hosting a web server:
+*simply copy the command below and paste in the bash to install the ngnix webserver-
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
